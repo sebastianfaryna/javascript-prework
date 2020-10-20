@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-	<meta charset="UTF-8">
-	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div class="container">
-		<div id="buttons">
-			<button id="play-rock">Kamień</button>
-			<button id="play-paper">Papier</button>
-			<button id="play-scissors">Nożyce</button>
+	<head>
+		<meta charset="utf-8">
+		<title>Kamień, papier, nożyce</title>
+		<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="splash">
+				<h1>Kamień Papier Nożyce</h1>
+			</div>
+		</header>
+		<div class="container">
+			<div id="info">Graczu, wybierz jeden z poniższych gestów. Ja też wybiorę jeden i porównamy wyniki.<br>Pamiętaj, że kamień tępi nożyce, nożyce tną papier, a papier owija kamień.</div>
+			<div id="buttons">
+				<button class="rock" id="play-rock"><span>&#x1F590&#x1F3FB</span><br>Kamień</button>
+				<button class="paper" id="play-paper"><span>&#x1F590&#x1F3FB</span><br>Papier</button>
+				<button class="scissors" id="play-scissors"><span>&#x1F590&#x1F3FB</span><br>Nożyce</button>
+			</div>
+			<div id="messages"></div>
+			<div id="results"></div>
 		</div>
-		<div id="messages"></div>
-	</div>
-	<script src="js/functions.js"></script>
-	<script src="js/script.js"></script>
-</body>
+		<script src="js/functions.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>

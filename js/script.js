@@ -25,8 +25,7 @@ function playGame(playerInput){
 
     // Ruch Gracza //
 
-    // let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce');
-    let playerMove = getMoveName(playerInput);
+        let playerMove = getMoveName(playerInput);
 
     console.log('Gracz wpisał: ' + playerInput);
 
@@ -68,3 +67,6 @@ document.getElementById('play-paper').addEventListener('click', function(){
 document.getElementById('play-scissors').addEventListener('click', function(){
     playGame(3);
 });
+
+// Licznik rund
+// w formacie X-Y, gdzie X to wygrane gracza, a Y komputera
