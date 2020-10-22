@@ -31,11 +31,11 @@ const argPlayerMove = getMoveName(playerInput);
 const displayResult = function(argComputerMove, argPlayerMove){
 console.log('Ruchy to:', argComputerMove, argPlayerMove);
     if(argComputerMove == 'rock' && argPlayerMove == 'paper'){
-            printMessage("You've won! Point for you!"); playerScore = playerScore + 1; console.log('Score = ' + playerScore);
+            printMessage("You've won! Point for you!"); ++playerScore; console.log('Score = ' + playerScore);
         } else if (argComputerMove == 'rock' && argPlayerMove == 'scissors'){
-            printMessage('You score!'); playerScore = playerScore + 1; console.log('Score = ' + playerScore);
+            printMessage('You score!'); ++playerScore; console.log('Score = ' + playerScore);
         } else if (argComputerMove == 'scissors' && argPlayerMove == 'rock'){
-            printMessage('Nice!'); playerScore = playerScore + 1; console.log('Score = ' + playerScore);
+            printMessage('Nice!'); ++playerScore; console.log('Score = ' + playerScore);
         } else if (argComputerMove == argPlayerMove){
             printMessage('DRAW!'); console.log('Remis. Punkty = ' + playerScore);
         } else {
