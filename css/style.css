@@ -22,10 +22,6 @@ h1 {
 }
 
 header {
-  position: relative;
-}
-
-header .splash {
   background-image: url("../images/rps.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -83,9 +79,6 @@ button.scissors:hover:before {
   content: '✌🏻';
 }
 
-/*#results {
-    margin-bottom: 210px;
-}*/
 footer {
   text-align: right;
   color: #00000080;
