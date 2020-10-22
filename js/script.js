@@ -30,15 +30,15 @@
             console.log('Moves: ', computerMove, playerMove);
             if (computerMove == 'rock' && playerMove == 'paper') {
                 printMessage("You've won! Point for you!");
-                ++playerScore;
+                playerScore++;
                 console.log('Points = ' + playerScore);
             } else if (computerMove == 'rock' && playerMove == 'scissors') {
                 printMessage('You score!');
-                ++playerScore;
+                playerScore++;
                 console.log('Points = ' + playerScore);
             } else if (computerMove == 'scissors' && playerMove == 'rock') {
                 printMessage('Nice!');
-                ++playerScore;
+                playerScore++;
                 console.log('Score = ' + playerScore);
             } else if (computerMove == playerMove) {
                 printMessage('DRAW!');
