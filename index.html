@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="pl">
-	<head>
-		<meta charset="utf-8">
-		<title>Kamień, papier, nożyce</title>
-		<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<header>
-			<div class="splash">
-				<h1>Kamień Papier Nożyce</h1>
-			</div>
-		</header>
-		<div class="container">
-			<div id="info">Graczu, wybierz jeden z poniższych gestów. Ja też wybiorę jeden i porównamy wyniki.<br>Pamiętaj, że kamień tępi nożyce, nożyce tną papier, a papier owija kamień.</div>
-			<div id="buttons">
-				<button class="rock" id="play-rock"><span>&#x1F590&#x1F3FB</span><br>Kamień</button>
-				<button class="paper" id="play-paper"><span>&#x1F590&#x1F3FB</span><br>Papier</button>
-				<button class="scissors" id="play-scissors"><span>&#x1F590&#x1F3FB</span><br>Nożyce</button>
-			</div>
-			<div id="messages"></div>
-			<div id="results"></div>
+
+<head>
+	<meta charset="utf-8">
+	<title>Rock Paper Scissors</title>
+	<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="splash">
+			<h1>Rock Paper Scissors</h1>
 		</div>
-		<script src="js/functions.js"></script>
-		<script src="js/script.js"></script>
-	</body>
+	</header>
+	<div class="container">
+		<div id="info">Plesae, select one of the following gestures. I'll also select one and we'll compare the
+			results.<br> Remember that: rock blunts the scissors, the scissors cut paper and paper wraps the rock.</div>
+		<div id="buttons">
+			<button class="rock" id="play-rock"><span>&#x1F590&#x1F3FB</span><br>Rock</button>
+			<button class="paper" id="play-paper"><span>&#x1F590&#x1F3FB</span><br>Paper</button>
+			<button class="scissors" id="play-scissors"><span>&#x1F590&#x1F3FB</span><br>Scissors</button>
+		</div>
+		<div id="messages"></div>
+		<div id="results"></div>
+	</div>
+	<script src="js/functions.js"></script>
+	<script src="js/script.js"></script>
+</body>
+<footer>&copy; Sebastian Faryna 2020</footer>
 </html>

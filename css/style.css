@@ -82,4 +82,13 @@ button.scissors:hover span {
 button.scissors:hover:before {
   content: '✌🏻';
 }
+
+/*#results {
+    margin-bottom: 210px;
+}*/
+footer {
+  text-align: right;
+  color: #00000080;
+  margin-top: 100px;
+}
 /*# sourceMappingURL=style.css.map */
