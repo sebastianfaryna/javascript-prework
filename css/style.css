@@ -79,9 +79,25 @@ button.scissors:hover:before {
   content: '✌🏻';
 }
 
+button.lizard:hover span {
+  display: none;
+}
+
+button.lizard:hover:before {
+  content: '🤏🏻';
+}
+
+button.spock:hover span {
+  display: none;
+}
+
+button.spock:hover:before {
+  content: '🖖🏻';
+}
+
 footer {
   text-align: right;
   color: #00000080;
-  margin-top: 100px;
+  margin: 100px 25px 0 0;
 }
 /*# sourceMappingURL=style.css.map */

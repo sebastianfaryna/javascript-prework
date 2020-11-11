@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<title>Rock Paper Scissors</title>
+	<title>Rock Paper Scissors Lizard Spock</title>
 	<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<header>
-		<h1>Rock Paper Scissors</h1>
+		<h1>Rock Paper Scissors Lizard Spock*</h1>
 	</header>
 	<div class="container">
-		<div id="info">Plesae, select one of the following gestures. I'll also select one and we'll compare the
-			results.<br> Remember that: rock blunts the scissors, the scissors cut paper and paper wraps the rock.</div>
+		<div id="info">Please, select one of the following gestures. I'll also select one and we'll compare the
+			results.<br><u>Remember that:</u> <b>rock &#xFF1E;</b> scissors and lizard, <b>paper &#xFF1E;</b> rock and
+			Spock, <b>scissors &#xFF1E;</b> paper and lizard,<br><b>lizard &#xFF1E;</b> Spock and paper, <b>Spock
+				&#xFF1E;</b> scissors and rock.
+		</div>
 		<div id="buttons">
 			<button class="rock" id="play-rock"><span>&#x1F590&#x1F3FB</span><br>Rock</button>
 			<button class="paper" id="play-paper"><span>&#x1F590&#x1F3FB</span><br>Paper</button>
 			<button class="scissors" id="play-scissors"><span>&#x1F590&#x1F3FB</span><br>Scissors</button>
+			<button class="lizard" id="play-lizard"><span>&#x1F590&#x1F3FB</span><br>Lizard</button>
+			<button class="spock" id="play-spock"><span>&#x1F590&#x1F3FB</span><br>Spock</button>
 		</div>
 		<div id="messages"></div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>
-<footer>&copy; Sebastian Faryna 2020</footer>
+<footer>*Invented by <a href="http://www.samkass.com/theories/RPSSL.html">Sam Kass</a><br>&copy; Sebastian Faryna 2020</footer>
+
 </html>
