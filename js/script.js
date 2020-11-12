@@ -19,13 +19,13 @@
         }
 
         // Ruch Gracza //
-        const argPlayerMove = getMoveName(playerInput);
-        printMessage('Your move is: ' + argPlayerMove);
+        const playerMove = getMoveName(playerInput);
+        printMessage('Your move is: ' + playerMove);
 
         // Ruch komputera //
         const randomNumber = Math.floor(Math.random() * 5 + 1);
-        const argComputerMove = getMoveName(randomNumber);
-        printMessage('My move is: ' + argComputerMove);
+        const computerMove = getMoveName(randomNumber);
+        printMessage('My move is: ' + computerMove);
 
         // Wynik gry //
         const displayResult = function(argComputerMove, argPlayerMove) {
@@ -51,7 +51,7 @@
                 playerScore = 0;
             }
         }
-        displayResult(argComputerMove, argPlayerMove);
+        displayResult(computerMove, playerMove);
         printMessage("Player's Scores: " + playerScore)
     }
 
